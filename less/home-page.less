@@ -58,7 +58,7 @@
       h3 {
         margin-bottom: 10px;
         font-family: @headFonts;
-        font-size: 30px; 
+        font-size: 30px;
       }
 
       p {
@@ -66,19 +66,53 @@
         color: @main-font-color;
       }
 
-      .btn {
-      }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+    }
 
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-      }
+    .walk-img img {
+      border-radius: 20px;
     }
   }
+
+  // Mobile queries @mobile: max-width:500px;
+
+  @media(max-width: 500px){
+    img.blast{
+      width: 100%;
+    }
+
+    .sky {
+      display: none;
+    }
+
+    .launch {
+      display: none;
+    }
+
+    section.walk {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 50px 20px;
+
+
+      .walk-img {
+        width: 100%;
+      }
+
+      .walk-text {
+        width: 100%;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+    }
+
+  }
+
 }// home

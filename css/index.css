@@ -50,6 +50,12 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
 .home .intro h2 {
   padding: 15px;
   font-family: 'Russo One', sans-serif;
@@ -106,14 +112,45 @@ p {
   margin-left: 4%;
 }
 .home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+@media (max-width: 500px) {
+  .home img.blast {
+    width: 100%;
+  }
+  .home .sky {
+    display: none;
+  }
+  .home .launch {
+    display: none;
+  }
+  .home section.walk {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 20px;
+  }
+  .home section.walk .walk-img {
+    width: 100%;
+  }
+  .home section.walk .walk-text {
+    width: 100%;
+  }
+  .home section.walk .btn {
+    width: 100%;
+  }
 }
 .btn {
   width: 150px;
   height: 50px;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: #22283A;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.3rem;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
 }
 .navContainer {
   max-width: 100%;
