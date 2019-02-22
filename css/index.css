@@ -8,6 +8,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.footer {
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  color: #5E6164;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
 * {
   box-sizing: border-box;
 }
@@ -44,9 +52,12 @@ p {
 }
 .home .intro h2 {
   padding: 15px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
 }
 .home .intro p {
   padding: 0 15px;
+  color: #5E6164;
 }
 .home .space-images {
   display: flex;
@@ -64,9 +75,12 @@ p {
 }
 .home .visit-planets h3 {
   margin-top: 11px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
 }
 .home .visit-planets p {
   margin-top: 13px;
+  color: #5E6164;
 }
 .home .walk {
   margin-top: 60px;
@@ -80,9 +94,12 @@ p {
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+  color: #5E6164;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -93,9 +110,14 @@ p {
   height: auto;
   border-radius: 10px;
 }
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+}
 .navContainer {
   max-width: 100%;
-  height: 100px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   color: #454A59;
@@ -112,10 +134,11 @@ p {
   text-decoration: none;
   color: black;
   margin: 0px 5px;
-  letter-spacing: 1px;
 }
 .navContainer .logo {
-  padding-bottom: 35px;
+  padding-bottom: 25px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
